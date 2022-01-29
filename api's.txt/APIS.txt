@@ -1,0 +1,7 @@
+GET API'S : 
+
+1) /getStcoks -> [{id:1,nmae: "DBS",value:$100}]
+2) /getOrders  -  PARAMS - from, to, stock = [{id:1,oderqty:1, orderType:1, price:1, status:"PLACED",value:$100}]
+
+post api
+1) /placeOrder -> body:{"stockId":3, "orderId":4, "orderType":"limit", "customerId":3, "price":3, "quantity":3} -> "order placed"
